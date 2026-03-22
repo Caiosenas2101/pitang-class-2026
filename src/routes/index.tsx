@@ -150,6 +150,23 @@ function RouteComponent() {
           )}
         </div>
       </section>
+
+      <footer className="border-t border-orange-500/15 bg-black/80 py-8">
+        <div className="mx-auto max-w-6xl px-4 text-center">
+          <p className="text-[10px] leading-relaxed text-white/40 sm:text-xs">
+            Feito por <span className="text-white/55">Caio Sena</span>
+            <span className="mx-1.5 text-orange-500/40">·</span>
+            <span className="text-white/50">CESAR School</span>
+            <span className="mx-1.5 text-orange-500/40">·</span>
+            Prof. <span className="text-white/50">Keven</span>
+            <span className="mx-1.5 text-orange-500/40">·</span>
+            Programa de estágio <span className="text-orange-400/70">Pitang</span>
+          </p>
+          <p className="mt-2 text-[10px] text-white/30 sm:text-[11px]">
+            pitang-class 2026 · projeto acadêmico
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }
